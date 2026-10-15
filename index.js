@@ -43,3 +43,12 @@ checkWeather(searchbox.value);
  })
 
 
+window.addEventListener("load", () => {
+  const splash = document.querySelector(".splash");
+  setTimeout(() => {
+    splash.style.display = "none";
+  }, 2000); 
+});
+
+
+
