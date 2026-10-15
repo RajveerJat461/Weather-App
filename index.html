@@ -4,14 +4,16 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Weather App</title>
-    <link rel="stylesheet" href="weat.css">
-    
+    <link rel="stylesheet" href="index.css">
 </head>
 <body>
+ 
+    <div class="splash">Created by Rajveer jat Sategaon</div>
+
     <div class="card">
         <div class="search">
             <input type="text" placeholder="Enter city name" spellcheck="false"> 
-<button><img src="search-interface-symbol.png" ></button>
+            <button><img src="search-interface-symbol.png"></button>
         </div>
         <div class="error">
             <p>Invalid city name</p>
@@ -19,25 +21,33 @@
         <div class="weather">
             <img src="heavy-rain.png" class="Weather-icon">
             <h1 class="temp">40°c</h1>
-            <h2 class="city-name"> New York</h2>
+            <h2 class="city-name">New York</h2>
             <div class="detail">
-                <div class="col side" >
-                    <img src="humidity.png" alt="" srcset="">
+                <div class="col side">
+                    <img src="humidity.png" alt="">
                     <div>
-                        <p  class="humidity">50%</p>
+                        <p class="humidity">50%</p>
                         <p>Humidity</p>
                     </div>
-                    <div class="col">
-                    <img src="wind.png" alt="" srcset="">
+                </div>
+                <div class="col">
+                    <img src="wind.png" alt="">
                     <div>
-                        <p  class="wind">15 km/h</p>
+                        <p class="wind">15 km/h</p>
                         <p>Wind Speed</p>
                     </div>
                 </div>
             </div>
+
+          <div class="credit">
+                 <p>⚡ All rights reserved © Rajveer Jat 🚀</p>
+</div>
+
         </div>
     </div>
 </body>
-<script src="weather.js">
+<script src="index.js"></script>
+
+
 </script>
 </html>
